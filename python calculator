@@ -1,0 +1,21 @@
+#calculator
+
+inp2 = input("enter the first value: ")
+inp3 = input("enter the second value: ")
+inp =  input("enter the operator (+,-,*,/):")
+
+if inp=="+":
+    print(int(inp2) + int(inp3))
+    
+elif inp=="-":
+    print(int(inp2) - int(inp3))
+    
+elif inp=="*":
+    print(int(inp2) * int(inp3))
+    
+elif inp=="/":
+    print(int(inp2) / int(inp3))
+    
+    
+else:
+    print("error code")
